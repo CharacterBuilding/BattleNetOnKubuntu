@@ -1,0 +1,19 @@
+##-- General Ignores --##
+#-- IDE File Extensions
+*.idea
+*.project
+#-- Swap/TEMP Files
+*.swp
+*.tmp
+#-- Mac HDD Files
+.DS_Store
+
+##-- Specific Project Ignores --##
+tmp
+*.tar.gz
+*.zip
+*.iso
+*.dmg
+*.pdf
+*.key
+*.afphoto
