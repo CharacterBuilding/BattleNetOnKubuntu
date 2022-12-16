@@ -112,6 +112,32 @@ HIDDEN flag on FAT/NTFS filesystems. As an extended attribute the flag is remove
 works, but the correct and more straightforward solution would be to remove the attribute directly.
 
 ##### Resolution
+
+###### Using the Script
+This seemed to become a pretty frequent issue. Every BattleNet update seemed to cause this issue to re-occur, and every
+re-occurrence was resolved with the same fix. So, I figured I would just make a script that I could mash to fix the problem
+whenever the issue re-occurs.
+
+You should be able to use the script and these steps to instantly fix your issue and get BattleNet running again, right away!
+
+* Open a Terminal
+* Ensure the `attrs` package is installed (if running this for the first time)
+    ```bash
+    sudo apt install attr
+    ```
+* Change to the directly where you stored the script and ensure it's executable (if running this for the first time)
+    ```bash
+    chmod +x BNetOnWine-Fix.sh
+    ```
+* Run the Script
+    ```bash
+    ./BNetOnWine-Fix.sh
+    ```
+* If the script ran, you should be good to re-open BattleNet and get back to playing!
+    * **NOTE** :: The script will fail on ANY Error. So, if it ran to the print message, you should be good!
+
+
+###### Detailed Steps
 The resolution is also attributed to the _Regrin_ user, who found the exact, detailed issue, documented above. In order to
 complete this, you will need the `attrs` Ubuntu package.
 
