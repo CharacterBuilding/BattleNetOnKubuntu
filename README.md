@@ -1,3 +1,7 @@
+## GitHub Project
+If you arrived here through GitHub Pages, be sure to checkout the actual [GitHub Project](https://github.com/CharacterBuilding/BattleNetOnKubuntu)
+for any associated files, updates, questions, etc.
+
 ## Getting BattleNet Running on Kubuntu
 With a shiny new laptop running `Kubuntu 22.04`, I wanted to be able to
 occasionally play some Hearthstone on it. I was able to find some good
